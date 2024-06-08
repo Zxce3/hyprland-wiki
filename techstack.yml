@@ -1,0 +1,32 @@
+repo_name: Zxce3/hyprland-wiki
+report_id: 58971cb3c64ec13e8817c007c854ab4c
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-08T17:07:59+00:00'
+requested_by: shezdy
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Zxce3/hyprland-wiki
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Zxce3/hyprland-wiki/blob/main/.github/workflows/updateWebsite.yml
+  detection_source: ".github/workflows/updateWebsite.yml"
+  last_updated_by: vaxerski
+  last_updated_on: 2022-08-13 19:43:23.000000000 Z
